@@ -15,6 +15,8 @@ NFC is a branch of High-Frequency (HF) RFID, and it operates at the 13.56 MHz fr
 
 * Known attacks to MIFARE DESFire:
     * Side-channel leakage
+    
+![OMSP](/images/teslakeycard.png)
 
 ## Tools
 * ["Proxmark 3 RDV4"](https://proxmark.com/): Proxmark 3 RDV4 is the latest revision of the Proxmark 3 Platform. It is designed and manufactured by RRG.
@@ -24,3 +26,4 @@ NFC is a branch of High-Frequency (HF) RFID, and it operates at the 13.56 MHz fr
 * ["Breaking MIFARE DESFire MF3ICD40: Power Analysis and Templates in the Real World". David Oswald. CHES 2011.](https://www.iacr.org/workshops/ches/ches2011/presentations/Session%205/CHES2011_Session5_1.pdf)
 * ["Attacks on the curve-based discrete logarithm problem". Universit´e de Versailles Saint-Quentin, Laboratoire PRiSM. 2011](http://ecc2011.loria.fr/slides/summerschool-vitse.pdf)
 * ["A 2018 practical guide to hacking NFC/RFID". Sławomir Jasek. 2018](https://smartlockpicking.com/slides/Confidence_A_2018_Practical_Guide_To_Hacking_RFID_NFC.pdf)
+* ["Tesla Key Card Protocol". Robert Quattlebaum. 2020](https://gist.github.com/darconeous/2cd2de11148e3a75685940158bddf933)

@@ -37,14 +37,25 @@ Manufacturers, aware of the weaknesses of the protocol and its implementations, 
 * **Security through obscurity**: architecture and implementation of the control logic of the different ECUs are usually proprietary and not easily accessible, which makes reverse engineering tasks difficult.
 * **Signed Firmware**: some manufacturers already sign ECU and gateway firmwares to avoid tampering.
 
+
+
 ## Tools
 
 - [SocketCAN](https://wiki.linklayer.com/index.php/SocketCAN): SocketCAN is a collection of CAN drivers and networking tools for Linux. It allows interfacing with CAN bus devices in a similar fashion as other network devices. This allows for developers to write code that can support a variety of CAN bus interfaces, including CANtact.
 - [CANalyzat0r](https://github.com/schutzwerk/CANalyzat0r): This Python software project is built from scratch with new ideas for analysis mechanisms. It’s released on GitHub and bundles many features of other CAN tools in one place. Also, it’s GUI based and organized with one tab per specific analysis task.
 - [How to Build a CAN Sniffer (PiCAN2 CAN-Bus Board)](https://www.karambasecurity.com/blog/2018-01-17-how-to-build-a-can-sniffer): PiCAN2 board to provide CAN-Bus capability for the Raspberry Pi.
 - [OBDwiz Automotive Diagnostic Software and ScanTool.net OBD-2 Software](https://www.scantool.net/scantool/downloads/diagnostic-software/): OBDwiz is exclusively free for all the OBDLink and ElmScan 5 customers who purchased their scan tool after May 2010.
+- [ELM327](https://en.wikipedia.org/wiki/ELM327): The ELM327 is a programmed microcontroller produced by ELM Electronics for translating the on-board diagnostics (OBD) interface found in most modern cars. The ELM327 command protocol is one of the most popular PC-to-OBD interface standards and is also implemented by other vendors.
+
+![OMSP](/images/ELM327.png)
+
+- [ScanMaster](https://support.wgsoft.de/74-kunden-support-bereich/166-scanmaster-elm-update-auf-die-version-4-0-oder-hoeher.html): ScanMaster is an interesting diagnostics software designed by WGSoft. It is 100% compatible with ELM327 microcontroller.
+
+![OMSP](/images/scanmaster.png)
+
 - [Industrial Ethernet M12 to RJ45](https://www.amazon.com/m12-rj45/s?k=m12+to+rj45): M12 is an industrial type connector, commonly used in environments where robustness is a requirement due to its reliability in connection. Its behaviour is similar to a RJ45 connector. In many trains is used this type of connector, instead of RJ45, so it will be needed to have hoses that convert M12 to RJ45 to be able to connect to Switches and other devices of the train.
 
+![OMSP](/images/cartrainports.png)
 
 ## References
 
