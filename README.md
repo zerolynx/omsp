@@ -54,6 +54,7 @@ The Cyber Mobility Attack Chain has been completed with other categories of cont
 - [Juan Antonio Calles](https://twitter.com/jantonioCalles)
 - [Luis Vázquez](https://twitter.com/macgruap)
 - [Francisco Palma](https://twitter.com/1c3t0rm)
+- [Martín Puga](https://www.linkedin.com/in/mpegea/)
 
 ## Contributors, Editors and Translators 
 
